@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment-1</title>
+
+    <style>
+    
+    h1{
+
+        text-align: center;
+    }
+    span{
+        display: inline-block;
+        width: 31%;
+        box-sizing: border-box;
+        height: 120px;
+        margin-right: 10px;
+        margin-left: 10px;
+        background-color: gray;
+    }
+    section{
+        margin-top: 100px;
+    }
+    section div {
+        text-align: right;
+    }
+    #div1 {
+        background-color: pink;
+    }
+    #div2 {
+        background-color: red;
+    }
+    #div3 {
+        background-color: sandybrown;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>
+        Our Menu
+    </h1>
+<section>
+    <span >
+        <div id="div1">
+           <b>Chicken</b> 
+        </div>
+        Para1
+         <!-- <p>
+            Para 1
+        </p> -->
+    </span >
+
+    <span >
+        <div id="div2">
+            <b>Beef</b> 
+            
+        </div>
+        Para2
+        <!-- <p>
+            Para 2
+        </p> -->
+    </span>
+
+    <span >
+        <div id="div3">
+            <b>Sushi</b> 
+        </div>
+        Para3
+        <!-- <p>
+            Para 3
+        </p> -->
+    </span>
+
+</section>
+</body>
+</html>
